@@ -118,7 +118,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 #uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YTMusic-Premium]
-enabled = true
+enabled = false
 app-name = "YTMusic Premium"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -144,7 +144,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 #uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YTMusic-Extended]
-enabled = true
+enabled = false
 app-name = "YTMusic Extended"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -168,3 +168,10 @@ patcher-args = """\
 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 #uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
+
+[Spotify]
+excluded-patches = "'Hide Create button'"
+patcher-args = "-e 'Custom theme' -ObackgroundColor=000000 -ObackgroundColorSecondary=000000"
+
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
