@@ -173,7 +173,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 enabled = true
 app-name = "Spotify Patched"
 # rv-brand = "Premium Patched"
-version = auto
+version = "auto"
 arch = "all"
 riplib = true
 
