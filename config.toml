@@ -10,7 +10,7 @@ rv-brand = "by h1toru"
 #===== app config =====#
 
 [YouTube-Premium]
-enabled = true
+enabled = false
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
 build-mode = "apk"
@@ -37,7 +37,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Premium-Module]
-enabled = true
+enabled = false
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
 build-mode = "module"
@@ -64,7 +64,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube Extended"
 # rv-brand = "Extended"
 build-mode = "apk"
@@ -91,7 +91,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended-Module]
-enabled = true
+enabled = false
 app-name = "YouTube Extended"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -118,7 +118,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YTMusic-Premium]
-enabled = true
+enabled = false
 app-name = "YTMusic Premium"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -144,7 +144,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YTMusic-Extended]
-enabled = true
+enabled = false
 app-name = "YTMusic Extended"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -169,6 +169,16 @@ patcher-args = """\
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
-[Spotify]
+[Spotify-Premium]
+enabled = true
+app-name = "Spotify Patched"
+# rv-brand = "Premium Patched"
+version = auto
+arch = "all"
+riplib = true
+
+patches-source = "revanced/revanced-patches"
+cli-source = "inotia00/revanced-cli"
+
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
