@@ -169,16 +169,16 @@ patcher-args = """\
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
-[Spotify-Premium]
+[Spotify-Patched]
 enabled = true
 app-name = "Spotify Patched"
-# rv-brand = "Premium Patched"
+# rv-brand = "Patched"
 version = "auto"
-arch = "all"
-riplib = true
+# arch = "all"
+# riplib = true
 
 patches-source = "revanced/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+cli-source = "revanced/revanced-cli"
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
