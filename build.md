@@ -1,5 +1,3 @@
-Spotify-Patched (arm64-v8a): 9.0.64.586  
-Spotify-Patched (arm-v7a): 9.0.64.586  
 YTMusic-Extended (arm64-v8a): 8.12.53  
 YTMusic-Extended (arm-v7a): 8.12.53  
 YTMusic-Premium (arm64-v8a): 8.12.53  
