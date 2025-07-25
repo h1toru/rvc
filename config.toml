@@ -40,7 +40,7 @@ uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 enabled = true
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
-build-mode = "module"
+build-mode = "both"
 version = "auto"
 arch = "all"
 riplib = true
@@ -174,11 +174,11 @@ enabled = true
 app-name = "Spotify Patched"
 # rv-brand = "Patched"
 version = "auto"
-arch = "both"
+arch = "all"
 riplib = true
 
-patches-source = "revanced/revanced-patches"
-cli-source = "j-hc/revanced-cli"
+# patches-source = "revanced/revanced-patches"
+# cli-source = "j-hc/revanced-cli"
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+# archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
