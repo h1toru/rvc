@@ -1,3 +1,4 @@
+Spotify-Patched: 9.0.66.654  
 YTMusic-Extended (arm64-v8a): 8.12.53  
 YTMusic-Extended (arm-v7a): 8.12.53  
 YTMusic-Premium (arm64-v8a): 8.12.53  
@@ -15,9 +16,9 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanc
 [revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
   
 CLI: inotia00/revanced-cli-5.0.1-all.jar  
-Patches: inotia00/patches-5.7.1.rvp  
-[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.7.1)
+Patches: inotia00/patches-5.8.1.rvp  
+[Changelog](https://github.com/inotia00/revanced-patches/releases/tag/v5.8.1)
 
 CLI: j-hc/revanced-cli-5.0.0-all.jar  
-Patches: revanced/patches-5.31.2.rvp  
-[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.31.2)  
+Patches: revanced/patches-5.32.0.rvp  
+[Changelog](https://github.com/revanced/revanced-patches/releases/tag/v5.32.0)  
