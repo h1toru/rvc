@@ -1,6 +1,6 @@
 {
-  "version": "v8.12.53 (patches 5.8.1)",
-  "versionCode": 14,
-  "zipUrl": "https://github.com/h1toru/rvc/releases/download/14/ytmusic-premium-by-h1toru-magisk-v8.12.53-arm-v7a.zip",
+  "version": "v8.12.53 (patches 5.9.1)",
+  "versionCode": 15,
+  "zipUrl": "https://github.com/h1toru/rvc/releases/download/15/ytmusic-premium-by-h1toru-magisk-v8.12.53-arm-v7a.zip",
   "changelog": "https://raw.githubusercontent.com/h1toru/rvc/update/build.md"
 }
