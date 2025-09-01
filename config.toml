@@ -3,14 +3,20 @@ parallel-jobs = 1
 compression-level = 9
 remove-rv-integrations-checks = true
 
-patches-source = "revanced/revanced-patches"
-cli-source = "j-hc/revanced-cli"
 rv-brand = "by h1toru"
 
-#===== app config =====#
+cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+
+# cli-source = "j-hc/revanced-cli"
+# patches-source = "inotia00/revanced-patches"
+# patches-source = "revanced/revanced-patches"
+
+#========== YouTube ==========#
 
 [YouTube-Premium]
-enabled = true
+enabled = false
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
 build-mode = "apk"
@@ -19,8 +25,7 @@ arch = "both"
 riplib = true
 module-prop-name = "h1toru-rvm-yt"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "anddea/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Premium' \
@@ -37,7 +42,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Premium-Module]
-enabled = true
+enabled = false
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -46,8 +51,7 @@ arch = "all"
 riplib = true
 module-prop-name = "h1toru-rvm-yt"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "anddea/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Premium' \
@@ -64,7 +68,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended]
-enabled = true
+enabled = false
 app-name = "YouTube Extended"
 # rv-brand = "Extended"
 build-mode = "apk"
@@ -73,8 +77,7 @@ arch = "both"
 riplib = true
 module-prop-name = "h1toru-rvm-yt"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "anddea/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Extended' \
@@ -91,7 +94,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
 [YouTube-Extended-Module]
-enabled = true
+enabled = false
 app-name = "YouTube Extended"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -100,8 +103,7 @@ arch = "all"
 riplib = true
 module-prop-name = "h1toru-rvm-yt"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "anddea/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Extended' \
@@ -117,8 +119,10 @@ patcher-args = """\
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
+#========== YouTube Music ==========#
+
 [YTMusic-Premium]
-enabled = true
+enabled = false
 app-name = "YTMusic Premium"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -127,8 +131,7 @@ arch = "both"
 riplib = true
 module-prop-name = "h1toru-rvm-ytm"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "inotia00/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube Music' -OappNameLauncher='YTMusic Premium' -OappNameNotification='YTMusic Premium' \
@@ -144,7 +147,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 [YTMusic-Extended]
-enabled = true
+enabled = false
 app-name = "YTMusic Extended"
 # rv-brand = "Extended"
 build-mode = "both"
@@ -153,8 +156,7 @@ arch = "both"
 riplib = true
 module-prop-name = "h1toru-rvm-ytm"
 
-patches-source = "inotia00/revanced-patches"
-cli-source = "inotia00/revanced-cli"
+# patches-source = "inotia00/revanced-patches"
 patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube Music' -OappNameLauncher='YTMusic Extended' -OappNameNotification='YTMusic Extended' \
@@ -169,6 +171,8 @@ patcher-args = """\
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
+#========== Spotify ==========#
+
 [Spotify-Patched]
 enabled = true
 app-name = "Spotify Patched"
@@ -176,9 +180,6 @@ app-name = "Spotify Patched"
 version = "auto"
 arch = "all"
 riplib = true
-
-# patches-source = "revanced/revanced-patches"
-# cli-source = "j-hc/revanced-cli"
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
