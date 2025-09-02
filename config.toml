@@ -182,7 +182,7 @@ arch = "all"
 # riplib = true
 
 patcher-args = """\
-  --rip-libs
+  --rip-libs --rip-lib x86_64 --rip-lib x86 \
   -e 'Change version code'
 """
 
