@@ -190,6 +190,7 @@ riplib = false
 patcher-args = """\
   --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm64-v8a' \
   -e 'Spoof client' \
+  -d 'Lyrics search' \
   """
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
