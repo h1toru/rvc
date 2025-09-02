@@ -32,7 +32,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Premium' \
   -d 'Custom branding icon for YouTube' \
-  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvm.yt' \
+  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvb.yt' \
   -e 'Settings for YouTube' -OrvxSettingsLabel='Extended' \
   -e 'Return YouTube Username' \
   -d 'Enable gradient loading screen' \
@@ -58,7 +58,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Premium' \
   -d 'Custom branding icon for YouTube' \
-  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvm.yt' \
+  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvb.yt' \
   -e 'Settings for YouTube' -OrvxSettingsLabel='Extended' \
   -e 'Return YouTube Username' \
   -d 'Enable gradient loading screen' \
@@ -84,7 +84,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Extended' \
   -e 'Custom branding icon for YouTube' -OappIcon='mmt' \
-  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvm.yt.ex' \
+  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvb.yt.ext' \
   -e 'Settings for YouTube' -OrvxSettingsLabel='Extended' \
   -e 'Return YouTube Username' \
   -d 'Enable gradient loading screen' \
@@ -110,7 +110,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Extended' \
   -e 'Custom branding icon for YouTube' -OappIcon='mmt' \
-  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvm.yt.ex' \
+  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvb.yt.ext' \
   -e 'Settings for YouTube' -OrvxSettingsLabel='Extended' \
   -e 'Return YouTube Username' \
   -d 'Enable gradient loading screen' \
@@ -138,7 +138,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube Music' -OappNameLauncher='YTMusic Premium' -OappNameNotification='YTMusic Premium' \
   -d 'Custom branding icon for YouTube Music' \
-  -e 'GmsCore support' -OpackageNameYouTubeMusic='h1toru.rvm.ytm' \
+  -e 'GmsCore support' -OpackageNameYouTubeMusic='h1toru.rvb.ytm' \
   -e 'Settings for YouTube Music' -OrvxSettingsLabel='Extended' \
   -e 'Disable music video in album' \
   -e 'Return YouTube Username' \
@@ -163,7 +163,7 @@ patcher-args = """\
   -e 'Change version code' \
   -e 'Custom branding name for YouTube Music' -OappNameLauncher='YTMusic Extended' -OappNameNotification='YTMusic Extended' \
   -e 'Custom branding icon for YouTube Music' -OappIcon='mmt' \
-  -e 'GmsCore support' -OpackageNameYouTubeMusic='h1toru.rvm.ytm.ex' \
+  -e 'GmsCore support' -OpackageNameYouTubeMusic='h1toru.rvb.ytm.ext' \
   -e 'Settings for YouTube Music' -OrvxSettingsLabel='Extended' \
   -e 'Disable music video in album' \
   -e 'Return YouTube Username' \
@@ -183,7 +183,7 @@ version = "auto"
 arch = "all"
 riplib = false
 
-cli-source = "j-hc/revanced-cli"
+# cli-source = "j-hc/revanced-cli"
 patcher-args = """\
   --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm64-v8a' \
 """
