@@ -5,15 +5,18 @@ remove-rv-integrations-checks = true
 
 rv-brand = "by h1toru"
 
-cli-source = "inotia00/revanced-cli"
+cli-source = "j-hc/revanced-cli"
 cli-version = "latest"
 
 patches-source = "anddea/revanced-patches"
 patches-version = "dev"
 
 # cli-source = "j-hc/revanced-cli"
-# patches-source = "inotia00/revanced-patches"
+# cli-source = "inotia00/revanced-cli"
+
 # patches-source = "revanced/revanced-patches"
+# patches-source = "inotia00/revanced-patches"
+# patches-source = "anddea/revanced-patches"
 
 #========== YouTube ==========#
 
@@ -186,7 +189,8 @@ riplib = false
 # cli-source = "j-hc/revanced-cli"
 patcher-args = """\
   --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm64-v8a' \
-"""
+  -e 'Spoof client' \
+  """
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
