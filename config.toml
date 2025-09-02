@@ -181,8 +181,9 @@ app-name = "Spotify Patched"
 # rv-brand = "Patched"
 version = "auto"
 arch = "all"
-# riplib = true
+riplib = false
 
+cli-source = "j-hc/revanced-cli"
 patcher-args = """\
   --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm-v7a' \
   -e 'Change version code'
