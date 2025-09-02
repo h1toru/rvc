@@ -6,6 +6,8 @@ remove-rv-integrations-checks = true
 rv-brand = "by h1toru"
 
 cli-source = "inotia00/revanced-cli"
+cli-version = "latest"
+
 patches-source = "anddea/revanced-patches"
 patches-version = "dev"
 
@@ -182,7 +184,7 @@ arch = "all"
 # riplib = true
 
 patcher-args = """\
-  --rip-libs --rip-lib x86_64 --rip-lib x86 \
+  --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm-v7a' \
   -e 'Change version code'
 """
 
