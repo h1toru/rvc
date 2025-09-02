@@ -185,8 +185,7 @@ riplib = false
 
 cli-source = "j-hc/revanced-cli"
 patcher-args = """\
-  --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm-v7a' \
-  -e 'Change version code'
+  --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm64-v8a' \
 """
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
