@@ -179,7 +179,12 @@ app-name = "Spotify Patched"
 # rv-brand = "Patched"
 version = "auto"
 arch = "all"
-riplib = true
+# riplib = true
+
+patcher-args = """\
+  --rip-libs
+  -e 'Change version code'
+"""
 
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
