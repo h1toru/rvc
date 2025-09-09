@@ -203,6 +203,9 @@ patcher-args = """\
   -d 'Lyrics search' \
   """
 
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
+
 [Spotify-Patched-arm64]
 enabled = true
 app-name = "Spotify Patched arm64"
