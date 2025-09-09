@@ -187,9 +187,9 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 
 #========== Spotify ==========#
 
-[Spotify-Patched]
+[Spotify-Patched-arm]
 enabled = true
-app-name = "Spotify Patched"
+app-name = "Spotify Patched arm"
 # rv-brand = "Patched"
 version = "auto"
 arch = "all"
@@ -203,5 +203,21 @@ patcher-args = """\
   -d 'Lyrics search' \
   """
 
+[Spotify-Patched-arm64]
+enabled = true
+app-name = "Spotify Patched arm64"
+# rv-brand = "Patched"
+version = "auto"
+arch = "all"
+riplib = false
+
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+
+patcher-args = """\
+  --rip-lib x86_64 --rip-lib x86 --rip-lib armeabi-v7a \
+  -d 'Lyrics search' \
+  """
+  
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.spotify.music"
