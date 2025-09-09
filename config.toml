@@ -1,14 +1,14 @@
-enable-magisk-update = true
 parallel-jobs = 1
 compression-level = 9
-remove-rv-integrations-checks = true
+enable-magisk-update = true
+#remove-rv-integrations-checks = true
 
 rv-brand = "by h1toru"
 
 cli-source = "j-hc/revanced-cli"
 cli-version = "latest"
 
-patches-source = "anddea/revanced-patches"
+patches-source = "revanced/revanced-patches"
 patches-version = "dev"
 
 # cli-source = "j-hc/revanced-cli"
@@ -18,9 +18,12 @@ patches-version = "dev"
 # patches-source = "inotia00/revanced-patches"
 # patches-source = "anddea/revanced-patches"
 
+# https://github.com/MANCrimSon/YouTube-ReVanced-Extended
+# https://github.com/NoName-exe/revanced-extended
+
 #========== YouTube ==========#
 
-[YouTube-Premium]
+[YouTube-Premium-Split]
 enabled = false
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
@@ -46,26 +49,32 @@ patcher-args = """\
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 uptodown-dlurl = "https://youtube.en.uptodown.com/android"
 
-[YouTube-Premium-Module]
-enabled = false
+[YouTube-Premium]
+enabled = true
 app-name = "YouTube Premium"
 # rv-brand = "Extended"
 build-mode = "both"
 version = "auto"
 arch = "all"
-riplib = true
+riplib = false
 module-prop-name = "h1toru-rvm-yt"
 
-# patches-source = "anddea/revanced-patches"
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+
 patcher-args = """\
+  --rip-lib --rip-lib x86_64 --rip-lib x86 --rip-lib arm64-v8a \
   -e 'Change version code' \
   -e 'Custom branding name for YouTube' -OappName='YouTube Premium' \
-  -d 'Custom branding icon for YouTube' \
-  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvb.yt' \
-  -e 'Settings for YouTube' -OrvxSettingsLabel='Extended' \
+  -d 'Custom branding icon for YouTube' -d 'Custom header for YouTube' \
+  -e 'GmsCore support' -OpackageNameYouTube='h1toru.rvm.yt' \
+  -e 'Settings for YouTube' -OrvxSettingsLabel='Premium options' \
   -e 'Return YouTube Username' \
+  \
+  -d 'Custom double tap length' \
   -d 'Enable gradient loading screen' \
   -d 'Alternative thumbnails' \
+  -d 'Translations for YouTube' \
   -d 'Enable debug logging' \
   """
 
@@ -186,10 +195,11 @@ version = "auto"
 arch = "all"
 riplib = false
 
-# cli-source = "j-hc/revanced-cli"
+patches-source = "anddea/revanced-patches"
+patches-version = "dev"
+
 patcher-args = """\
-  --rip-lib 'x86_64' --rip-lib 'x86' --rip-lib 'arm64-v8a' \
-  -e 'Spoof client' \
+  --rip-lib x86_64 --rip-lib x86 --rip-lib arm64-v8a \
   -d 'Lyrics search' \
   """
 
