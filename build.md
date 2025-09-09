@@ -1,4 +1,5 @@
-Spotify-Patched: 9.0.76.1115  
+Spotify-Patched-arm: 9.0.76.1115  
+Spotify-Patched-arm64: 9.0.76.1115  
 YouTube-Premium: 19.47.53  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
